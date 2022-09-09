@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
- *main: indicates where execution starts
+ *main- indicates where execution starts
  *Return: indicates where it ends
  */
 int main(void)
