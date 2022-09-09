@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main- Program to print on screen
- *return: 0 indicated program has ended
+ *Return: 0 indicated program has ended
  */
 int main(void)
 {
