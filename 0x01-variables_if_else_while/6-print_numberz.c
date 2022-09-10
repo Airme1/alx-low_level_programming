@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
- * main - main function
- * Return: 0 to terminate function
+ * main - main function execution
+ * Return: 0 terminate program
  */
+
 int main(void)
 {
-        int n = 0;
+	int number = 0;
 
-        while (n < 10)
-        {
-                putchar(n);
-                n++;
-        }
-        put('\n');
-        return (0);
+	for (number = '0'; number <= '9'; number++)
+	{
+		putchar(number);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
-
