@@ -3,7 +3,8 @@
 #include <time.h>
 /* headers files above */
 
-/* int main starts here */
+/* main starts here */
+/* Return:0 ends program*/ 
 int main(void)
 {
 int n;
