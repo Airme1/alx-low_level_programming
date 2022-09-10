@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* headers files above */
-/* main starts here */
-/* Return:0 ends program*/ 
+/**
+ * main - contains main function
+ * Return: 0 to end program
+ */
 int main(void)
 {
 int n;
