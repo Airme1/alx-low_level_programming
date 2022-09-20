@@ -1,25 +1,28 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * puts_half - print half of a string
- * @str: pointer to string
+ * print_array - prints n numbers of an array
+ * @a: array
+ * @n: holds number of values to be printed
  */
 
-void puts_half(char *str)
+void print_array(int *a, int n)
 {
-	int total = 0;
+	/**counter variable**/
 	int i;
 
-	for (i = 0; *(str + i) != '\0'; i++)
-		total++;
+	if (n <= 0)
+		printf("\n");
 
-	if (total % 2 == 0)
-		total = total / 2;
 	else
-		total = ((total - 1) / 2) + 1;
+	{
+		for (i = 0; i < n; i++)
+		{
+			if (i == n - 1)
+				printf("%d\n", a[i]);
+			else
+				printf("%d, ", a[i]);
+		}
+	}
 
-	for (i = total; str[i] != '\0'; i++)
-		_putchar(str[i]);
-
-
-	_putchar('\n');
-}
+}}
